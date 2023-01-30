@@ -1,5 +1,3 @@
-
-
 class toolCtx:
 
 	def __init__(self):
@@ -16,7 +14,7 @@ class pluginCtx:
 	def runPlugin(self):
 		print("Plugin Run")
 
-class coreCtx:
+class coreCtx(cmd.Cmd):
 
 	def __init__(self):
 		pass
